@@ -6152,6 +6152,18 @@ fieldset:disabled .btn {
 .w-100 {
   width: 100% !important;
 }
+.w-125 {
+  width: 125% !important;
+}
+.w-150 {
+  width: 150% !important;
+}
+.w-175 {
+  width: 175% !important;
+}
+.w-200 {
+  width: 200% !important;
+}
 .w-auto {
   width: auto !important;
 }
@@ -6770,6 +6782,10 @@ fieldset:disabled .btn {
 .fs-6 {
   font-size: 1rem !important;
 }
+.fs-7 {
+  font-size: 0.75rem !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
