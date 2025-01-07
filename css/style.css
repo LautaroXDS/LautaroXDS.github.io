@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-
+* { 
+    font-family: "Montserrat", serif;
+}
 
 /*** Spinner Start ***/
 /*** Spinner ***/
@@ -263,6 +266,14 @@
 
 .w-10{
     width: 15%;
+}
+
+.fondoCostoPorMes{
+    background-image: url(../img/fondoCespedDos.png);
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 @media (max-width: 480px) {
@@ -1014,3 +1025,121 @@
     background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+
+.integracionTitulo{
+    font-size:calc(2rem + 1.5vw);
+    font-weight: bolder;
+}
+
+
+
+/* MEDIA DESKTOP Mobile*/ 
+
+/* Funcionalidades*/ 
+
+@media (min-width: 0px){
+    .borde {
+        border: 3px solid rgb(43, 255, 0)
+    }
+
+    .tituloAutomatizaFuncionalidades{
+        width: 75%;
+    }
+
+    .one{
+        margin-left: 2rem;
+    }
+
+    .two{
+        display:flex;
+        justify-content: center;
+    }
+
+    .imagenFuncionalidades{ 
+        width: 50%;
+    }
+
+}
+
+
+/* MEDIA DESKTOP MONITORS*/ 
+
+/* Home*/ 
+
+@media (min-width: 1280px){
+    .borde {
+        border: 2px solid rgb(0, 255, 191)
+    }
+
+
+    .hero-header{
+        margin-left: 2rem;
+    }
+
+    .parrafoComplejo{
+        font-size: 2rem;
+    }
+
+    .parrafoTestimonios{
+        font-size: calc(1.5rem + 1.5vw);
+    }
+
+    .botonVentas{
+        margin-left: 2rem;
+    }
+
+    
+
+    /* Funcionalidades*/ 
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+       
+    }
+    .one {
+        grid-column: 1 / 2;
+        grid-row: 1;
+        padding-left: 2rem;
+    }
+    .two {
+        grid-column: 2 / 3;
+        grid-row: 1 ;
+        display:flex;
+        align-items: center;
+    }
+
+    .imagenFuncionalidades{ 
+        width: 100%;
+    }
+
+    .tituloAutomatizaFuncionalidades{
+        width: 100%;
+    }
+    
+    .integracion1 {
+        grid-column: 1 / 2;
+        grid-row: 1;
+      }
+    .integracion2 {
+        grid-column: 2 / 3;
+        grid-row: 1 ;
+      }
+
+    .imagenIntegracionMp img{
+        height: auto;
+        max-height: 100%;
+        object-fit: contain;
+        background-color: red;
+        }
+
+    .imagenIntegracionMp{
+        overflow: hidden;
+        height: auto;
+    }
+    
+
+}
+
