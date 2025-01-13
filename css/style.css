@@ -1026,6 +1026,11 @@
 }
 /*** copyright end ***/
 
+
+/*! Globales XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+
 .integracionTitulo{
     font-size:calc(2rem + 1.5vw);
     font-weight: bolder;
@@ -1033,14 +1038,13 @@
 
 
 
-/* MEDIA DESKTOP Mobile*/ 
+
+
+/*! MOBILE XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
 /* Funcionalidades*/ 
 
 @media (min-width: 0px){
-    .borde {
-        border: 3px solid rgb(43, 255, 0)
-    }
 
     .tituloAutomatizaFuncionalidades{
         width: 75%;
@@ -1059,18 +1063,91 @@
         width: 50%;
     }
 
+    .pagoAnualImg{
+        width: 30%;
+    }
+/*
+    
+       
+    }*/
+}
+
+/*! Tablets, larger smartphones XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+@media (min-width: 481px){
+
 }
 
 
-/* MEDIA DESKTOP MONITORS*/ 
+/*! Tablets / Small desktops XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+@media (min-width: 768px){
+
+    /* PLANES */ 
+
+    .wrapper2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .plan{
+        padding: 20px;
+        text-align: center;
+    }
+
+    .plan:nth-child(3) {
+        grid-column: 1 / 3; /* Ocupa toda la fila */
+        justify-self: center; /* Centra horizontalmente */
+    }    
+    
+    .pagoAnualImg{
+        width: 10%;
+    }
+
+    .wrapperMediosPago{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .imagenCredit{
+        grid-column: 1 / 2;
+        grid-row: 1;
+
+    }
+
+    .imagenMoney{
+        grid-column: 2 / 3;
+        grid-row: 1;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .imagenMp{
+        grid-column: 3 / 4;
+        grid-row: 1;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .imagenMp img{
+        width: calc(65% - 10px);
+    }
+
+    .imagenMoney img{
+        width: calc(65% - 10px);
+    }
+}
+
+
+/*! Monitores XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
 /* Home*/ 
 
 @media (min-width: 1280px){
-    .borde {
-        border: 2px solid rgb(0, 255, 191)
-    }
-
 
     .hero-header{
         margin-left: 2rem;
@@ -1088,7 +1165,6 @@
         margin-left: 2rem;
     }
 
-    
 
     /* Funcionalidades*/ 
 
@@ -1122,24 +1198,89 @@
     .integracion1 {
         grid-column: 1 / 2;
         grid-row: 1;
+        height: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden; 
       }
+
     .integracion2 {
         grid-column: 2 / 3;
         grid-row: 1 ;
-      }
+    }
 
     .imagenIntegracionMp img{
         height: auto;
-        max-height: 100%;
+        max-height: 90%;
         object-fit: contain;
-        background-color: red;
         }
 
     .imagenIntegracionMp{
         overflow: hidden;
         height: auto;
     }
-    
 
+    .integracionParrafo{
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .softOnline1{
+        grid-column: 1 / 2;
+        grid-row: 1;
+    }
+
+    .softOnline2{
+        grid-column: 2 / 3;
+        grid-row: 1 ;
+    }   
+
+    .cajaStock1{
+        grid-column: 2 / 3;
+        grid-row: 1 ;
+    }
+
+    .cajaStock2{
+        grid-column: 1 / 2;
+        grid-row: 1;
+    }
+
+
+    /*
+        Precios
+    */
+
+    .wrapper2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(auto);
+    }
+
+    .plan{
+        grid-column: 1 / 2;
+        grid-row: 1 ;
+    }
+    
+    .plan:nth-child(2){
+        grid-column: 2 / 3;
+        grid-row: 1 ;
+    }
+
+    .plan:nth-child(3) {
+        grid-column: 3 / 4;
+        grid-row: 1 ;
+    }
+    
+    .wrapper2 li{
+        max-height: 2rem;
+    }
+
+    .pagoAnualImg{
+        width: 8%;
+    }
 }
 
