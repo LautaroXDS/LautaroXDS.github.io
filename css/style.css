@@ -1036,7 +1036,40 @@
     font-weight: bolder;
 }
 
+.faq-item {
+    margin-bottom: 1rem;
+}
+.faq-question {
+    cursor: pointer;
+    font-weight: bold;
+}
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+    padding: 0 1rem;
+    background-color: #f8f9fa;
+    border-left: 3px solid #0d6efd;
+    margin-top: 0.5rem;
+}
+.faq-answer.open {
+    max-height: 500px; /* Un valor suficientemente alto para mostrar el contenido */
+    opacity: 1;
+    padding: 0.5rem 1rem;
+}
 
+.sombra {
+    -webkit-box-shadow: 0px 0px 25px 7px rgba(153,153,153,1);
+    -moz-box-shadow: 0px 0px 25px 7px rgba(153,153,153,1);
+    box-shadow: 0px 0px 25px 7px rgba(153,153,153,1);
+    padding: 1.5rem;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
 
 
 
@@ -1145,6 +1178,19 @@
     .imagenMoney img{
         width: calc(65% - 10px);
     }
+
+    .wrapper4 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 3 columnas iguales */
+        gap: 10px; /* Espaciado entre cajas */
+        grid-auto-rows: minmax(auto);
+        border: 2px solid red
+    }
+
+    .tutorial{
+        height: calc(10000000%);
+    }
+
 }
 
 

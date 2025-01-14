@@ -191,18 +191,60 @@
 
         </div>
 
-       <div class="container mt-5 bg-primary py-3">
-            <h2 class="text-center">Preguntas frecuentes</h2>
-            <ul class="py-3">
-                <li><a class="color-white" href="">¿Cuantos dias incluye el periodo de prueba</a></li>
-                <li><a class="color-white" href="">¿Existe algun costo extra?¿Cobran por soporte o mantenimiento?</a></li>
-                <li><a class="color-white" href="">¿Puedo pagar por adelantado?¿Hay algun beneficio?</a></li>
-                <li><a class="color-white" href="">¿Cuando se abona el servicio?</a></li>
-                <li><a class="color-white" href="">¿Cuales son sus costos de instalacion?</a></li>
-                <li><a class="color-white" href="">¿Como es el proceso de configuracion?</a></li>
-                <li><a class="color-white" href="">¿Que tan facil es capacitar al personal y a los miembros?</a></li>
-                <li><a class="color-white" href="">¿Que tan rapido podemos tener nuestro sitio funcionando?</a></li>
-            </ul>
+       <div class="container mt-5 py-3">
+            <h2 class="text-center ">Preguntas frecuentes</h2>
+            <div class="sombra my-5">
+                <div id="faq-list">
+                    <div class="faq-item">
+                      <div class="faq-question" data-target="answer1">¿Cuantos dias incluye el periodo de prueba?</div>
+                      <div class="faq-answer" id="answer1">
+                        Te ofrecemos 30 días para probar el sistema, a partir del día de la creación de tu cuenta.
+                      </div>
+                    </div>
+                    <div class="faq-item">
+                      <div class="faq-question" data-target="answer2">¿Existe algún costo extra? ¿Cobran por soporte o mantenimiento?</div>
+                      <div class="faq-answer" id="answer2">
+                        El único costo de FutbolYa es el abono mensual. El soporte es remoto (On-line) y no implica ningún costo adicional. A su vez, al ser un sistema centralizado, ATC no requiere de ningún tipo de mantenimiento de tu parte. Todas las actualizaciones son automáticas y completamente gratuitas.
+                      </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" data-target="answer3">¿Puedo pagar por adelantado? ¿Hay algún beneficio?</div>
+                        <div class="faq-answer" id="answer3">
+                            Si realizás un pago anual por anticipado, recibís un descuento del 33%.                  
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" data-target="answer4">¿Cuándo se abona el servicio?</div>
+                        <div class="faq-answer" id="answer4">
+                            Los pagos mensuales se realizan por adelantado entre los días 1 y 10 de cada mes. Cuando se aproxime la fecha de vencimiento, te enviaremos una notificación por sistema para que no lo olvides.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" data-target="answer5">¿Cuáles son sus costos de instalación?</div>
+                        <div class="faq-answer" id="answer5">
+                            En ATC, lo mantenemos simple. Sin costos de capacitación o configuración. Estamos aquí para ayudarlo a brindar la mejor experiencia.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" data-target="answer6">¿Cómo es el proceso de configuración?</div>
+                        <div class="faq-answer" id="answer6">
+                            Nuestro equipo programará una llamada introductoria para brindar una capacitación.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" data-target="answer7">¿Qué tan fácil es capacitar al personal y a los miembros?</div>
+                        <div class="faq-answer" id="answer7">
+                            ¡El sistema está diseñado para ser fácil de usar! Nuestro equipo brinda atención al cliente las 24 horas del día, los 7 días de la semana y, si lo solicita, brindará capacitación al personal para ayudar a que su club tenga éxito.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" data-target="answer8">¿Qué tan rápido podemos tener nuestro sitio funcionando?</div>
+                        <div class="faq-answer" id="answer8">
+                            ¡Podemos movernos tan rápido como puedas! Las configuraciones habituales son entre 1 y 7 días.
+                        </div>
+                    </div>
+                </div>
+            </div>
        </div>
         
         <!-- Footer Start -->
@@ -212,10 +254,15 @@
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
                             <h4 class="text-dark mb-4">Company</h4>
-                            <a href=""> ¿Por que Futbol YA?</a>
-                            <a href=""> Nuestras caracteristicas</a>
-                            <a href=""> Nosotros</a>
-                            <a href=""> Blog y noticias</a>
+                            <a href=""> Descubre FutbolYa</a>
+                            <a href=""> Politicas de privacidad</a>
+                            <h6>Redes sociales</h6>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-share fa-2x text-secondary me-2"></i>
+                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">
@@ -223,15 +270,7 @@
                             <h4 class="mb-4 text-dark">Informacion de Contacto</h4>
                             <a href=""><i class="fa fa-map-marker-alt me-2"></i> 123 Street</a>
                             <a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a>
-                            <a href=""><i class="fas fa-phone me-2"></i> +012 345 67890</a>
-                            <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a>
-                            <div class="d-flex align-items-center">
-                                <i class="fas fa-share fa-2x text-secondary me-2"></i>
-                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
+                            <a href=""><i class="fas fa-phone me-2"></i> +012 345 67890</a>         
                         </div>
                     </div>
                 </div>
@@ -268,8 +307,9 @@
     <script src="lib/lightbox/js/lightbox.min.js"></script>
     
 
-    <!-- Template Javascript -->
+    <!-- Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/scripts.js"></script>
     </body>
 
 </html>
