@@ -1071,6 +1071,9 @@
     -o-border-radius: 15px;
 }
 
+.color-green{
+    color: #41b300;
+}
 
 
 /*! MOBILE XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
@@ -1188,7 +1191,7 @@
     }
 
     .tutorial{
-        height: calc(10000000%);
+        height: 16rem;
     }
 
 }
