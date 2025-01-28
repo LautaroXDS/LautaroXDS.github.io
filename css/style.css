@@ -1187,7 +1187,7 @@
         grid-template-columns: repeat(2, 1fr); /* 3 columnas iguales */
         gap: 10px; /* Espaciado entre cajas */
         grid-auto-rows: minmax(auto);
-        border: 2px solid red
+        /*border: 2px solid red*/
     }
 
     .tutorial{
