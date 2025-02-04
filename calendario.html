@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendario Interactivo</title>
+  <link rel="stylesheet" href="css/calendar.css">
+</head>
+<body>
+  <div id="toggleCalendar" class="hover"><p>hola</p></div>
+  <div id="selectedDateContainer" class="hidden"> <!-- Contenedor para la fecha seleccionada -->
+    <span id="selectedDate"></span>
+  </div>
+  <div class="calendar hidden">
+    <div class="header">
+      <button id="prevMonth">&lt;</button>
+      <h2 id="monthYear"></h2>
+      <button id="nextMonth">&gt;</button>
+    </div>
+    <div class="days">
+      <div class="day">Lun</div>
+      <div class="day">Mar</div>
+      <div class="day">Mié</div>
+      <div class="day">Jue</div>
+      <div class="day">Vie</div>
+      <div class="day">Sáb</div>
+      <div class="day">Dom</div>
+    </div>
+    <div class="dates" id="dates"></div>
+  </div>
+    
+  <script src="js/calendar.js"></script>
+</body>
+</html>

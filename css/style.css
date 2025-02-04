@@ -1075,6 +1075,18 @@
     color: #41b300;
 }
 
+.uneteAPartidos{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/partidoPadel.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.bannerNumero {
+    background-image: url(../img/banner.svg);
+}
+
 
 /*! MOBILE XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
@@ -1336,5 +1348,14 @@
     .pagoAnualImg{
         width: 8%;
     }
+
+    /*
+    INDEX 2 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    */
+
+    
+
+
+
 }
 
