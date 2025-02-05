@@ -1029,6 +1029,13 @@
 
 /*! Globales XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
+.tecnologiaAlServicio{
+    font-size: calc(1.9rem + 1.5vw);
+}
+
+.border-green{
+    border: 2px solid green;
+}
 
 
 .integracionTitulo{
@@ -1085,6 +1092,9 @@
 
 .bannerNumero {
     background-image: url(../img/banner.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 
